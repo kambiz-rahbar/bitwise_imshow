@@ -1,4 +1,4 @@
-function bitwise_imshow(img, selected_bits)
+function [res_img] = bitwise_imshow(img, selected_bits)
 
 % img = imread('cameraman.tif');
 img = double(img);
